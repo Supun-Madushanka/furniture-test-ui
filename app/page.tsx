@@ -6,6 +6,7 @@ import PromoBanner from "@/components/home/promo-banner";
 import ValueProps from "@/components/home/value-props";
 import Editorial from "@/components/home/editorial";
 import Testimonials from "@/components/home/testimonials";
+import Newsletter from "@/components/home/news-letter";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <ValueProps />
         <Editorial />
         <Testimonials />
+        <Newsletter />
       </main>
     </div>
   );
