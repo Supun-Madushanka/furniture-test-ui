@@ -3,6 +3,7 @@ import HeroSection from "@/components/home/hero-section";
 import CategoryRibbon from "@/components/home/category-ribbon";
 import BestSellers from "@/components/home/best-sellers";
 import PromoBanner from "@/components/home/promo-banner";
+import ValueProps from "@/components/home/value-props";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <CategoryRibbon />
         <BestSellers />
         <PromoBanner />
+        <ValueProps />
       </main>
     </div>
   );
