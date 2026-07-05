@@ -4,6 +4,7 @@ import CategoryRibbon from "@/components/home/category-ribbon";
 import BestSellers from "@/components/home/best-sellers";
 import PromoBanner from "@/components/home/promo-banner";
 import ValueProps from "@/components/home/value-props";
+import Editorial from "@/components/home/editorial";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <BestSellers />
         <PromoBanner />
         <ValueProps />
+        <Editorial />
       </main>
     </div>
   );
