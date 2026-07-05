@@ -5,6 +5,7 @@ import BestSellers from "@/components/home/best-sellers";
 import PromoBanner from "@/components/home/promo-banner";
 import ValueProps from "@/components/home/value-props";
 import Editorial from "@/components/home/editorial";
+import Testimonials from "@/components/home/testimonials";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <PromoBanner />
         <ValueProps />
         <Editorial />
+        <Testimonials />
       </main>
     </div>
   );
