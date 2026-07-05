@@ -7,6 +7,7 @@ import ValueProps from "@/components/home/value-props";
 import Editorial from "@/components/home/editorial";
 import Testimonials from "@/components/home/testimonials";
 import Newsletter from "@/components/home/news-letter";
+import Footer from "@/components/home/footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Testimonials />
         <Newsletter />
       </main>
+      <Footer />
     </div>
   );
 }
